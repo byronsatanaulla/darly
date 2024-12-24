@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Darly - Feliz Navidad</title>
+    <link rel="stylesheet" href="darly.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>Para Darly - Un Detalle de Navidad</header>
+
+    <!-- Contenedor Principal -->
+    <div class="main-container">
+        <!-- Contenedor de Botones -->
+        <div class="buttons-container">
+            <button class="message-btn" onclick="toggleMessage('message1')">Mensaje 1</button>
+            <button class="message-btn" onclick="toggleMessage('message2')">Mensaje 2</button>
+            <button class="message-btn" onclick="toggleMessage('message3')">Mensaje 3</button>
+        </div>
+
+        <!-- Contenedor de Mensajes -->
+        <div id="message1" class="message-content">
+            <button class="close-btn" onclick="toggleMessage('message1')">Cerrar</button>
+            <img src="images/message1.jpg" alt="Imagen de Navidad" class="message-img">
+            <h1>Querida Darly,</h1>
+            <p>
+                Este año ha sido un viaje lleno de retos, risas y muchos momentos memorables.
+                Desde las conversaciones que compartimos, tus historias llenas de energía y
+                autenticidad, hasta tu forma tan única de hacer cada día especial.
+            </p>
+        </div>
+
+        <div id="message2" class="message-content">
+            <button class="close-btn" onclick="toggleMessage('message2')">Cerrar</button>
+            <img src="images/message2.jpg" alt="Imagen de Navidad" class="message-img">
+            <p>
+                Quiero que sepas que, aunque no siempre lo diga, valoro mucho cada instante
+                que hemos compartido. Espero que esta Navidad esté llena de alegría, amor y
+                muchos momentos especiales para ti.
+            </p>
+        </div>
+
+        <div id="message3" class="message-content">
+            <button class="close-btn" onclick="toggleMessage('message3')">Cerrar</button>
+            <img src="images/message3.jpg" alt="Imagen de Navidad" class="message-img">
+            <p>
+                Que esta página sea un pequeño detalle para recordarte lo importante que
+                eres y cuánto inspiras a los que tienen la fortuna de conocerte.
+            </p>
+            <p>Feliz Navidad, Darly. 🎄🎁</p>
+        </div>
+    </div>
+
+    
+    <!-- Pie de página -->
+    <footer>
+        Con cariño, Byron ❤️
+    </footer>
+
+    <!-- Árbol de Navidad -->
+    <div class="christmas-tree">
+        <img src="ceb6bafe465db0abf87aacc16ede9180.gif" alt="Árbol de Navidad">
+    </div>
+    <script src="darly.js"></script>
+</body>
+</html>
